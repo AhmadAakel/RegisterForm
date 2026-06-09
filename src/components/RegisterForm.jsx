@@ -12,8 +12,6 @@ export default function RegisterForm() {
 
   const [errors, setErrors] = useState({});
 
-  const [success, setSuccess] = useState(false);
-
   const [showPassword, setShowPassword] = useState(false);
 
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
